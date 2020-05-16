@@ -1,0 +1,288 @@
+
+/*Code for the Home Page */
+body{	background-color:#efefef;
+	color:black;
+	font-size:15px;
+	font-family: "Open Sans","Times New Roman", Times, serif;
+	/*background-image:url("logotest.png");*/}
+	
+/*For the fixed nav bar */
+
+h1,h2,h3,h4,h5,h6,p{
+	
+font-family: Calibri, sans-serif;
+	
+}
+	
+.sticky{position:sticky;
+	top:0;
+	z-index:1;}
+	
+#scripttt{border:1px solid black;
+        margin: 0%;}
+		
+nav
+{padding-bottom:0%;
+	width:100%;
+	 overflow: hidden;
+	 color:white;
+	background-color:#ea4b4b;
+	font-size:20px;
+	font-family: Calibri, sans-serif;
+	  /* Set the navbar to fixed position */ /* Full width */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+	
+
+
+.white{background-color:white;}
+
+.white1{background-color:white;
+width:100%;
+border:1px solid black;}
+
+.white2{background-color:white;}
+	
+h1{color:#FF0A0A;}
+	
+img{
+		
+	margin:4%;
+	
+}
+
+@import ".../bootstrap.less";
+
+
+.navtext:hover{
+	
+	background-color:#d64646;
+	padding-top:2em;
+	padding-bottom:1.3em;
+	text-decoration:none;
+	
+	
+}	
+		
+	
+a{color:white;
+	text-decoration:none;}
+/*-----------------------------------**/
+#nav a,
+#nav a{
+  position: relative;
+}
+#nav a:after,
+#nav a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+#nav a:hover:after {
+  width: 100%;
+}
+
+#nav a{
+  transition: all 0.5s;
+}
+.hicham{width:13em;
+      box-shadow: -5px 5px 30px ;
+        border-style:solid solid solid solid;
+        border-radius:3px;}
+		
+.biggger{
+		height:90%;}
+
+#nav a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+#nav a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+#nav a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+.carousel .item {
+  height: 40em;
+}
+/*-----------------------------------**/
+
+h2{padding-top:4%;
+padding-bottom:2%;}
+
+.display{
+		margin-bottom:10%;
+		margin-top:10%;}
+
+#about{background-color:#ea4b4b;
+		color:white;
+		padding:18%;
+		padding-top:5%;
+		padding-bottom:5%;}
+		
+.borderss{	border:4px solid black;
+			margin-top:5%;
+			padding:5%;}
+			
+#map{
+	margin-top:0%;
+	padding:0%;
+	width:50%;
+	border:3px solid black;}
+
+#logo{width:80%;
+	padding-bottom:0%:}
+
+#contact{background-color:#FF0A0A;
+		color:white;
+		padding:1%;
+		margin-top:5%;
+		border:1px solid black;}
+
+#move{padding-top:0%;
+    color:white;}
+	
+.nomargin{margin:0%;
+		padding:0%;}
+		
+h6{font-size:100%;}
+
+footer{
+		color:black;
+        background-color:#efefef;}
+/*Code for the Home Page*/
+
+
+/*Product page code*/
+.getdown{margin-bottom:80%;}
+
+li.horia{display:inline;
+        background-color:#efefef;
+        padding:4%;
+        margin:1%;
+        border-radius:10px; 
+        font-size:1em;}
+
+#price{color:#ea4b4b;
+        font-size:150%;}
+
+h3{font-weight: bold;
+    font-size:100%;}
+
+#quant{margin-left:18%;
+        border-radius:5px;
+        width:80%;
+        text-align:center;}
+
+#normalopacity{opacity: 1;}
+
+#cart{ margin-left:35%;}
+
+#checkout{border:3px solid black;}
+
+#lazzy{font-weight:bold;}
+
+#bigger{font-size:150%;width:60%;
+        margin-left:20%;
+    padding-top:5%;
+    padding-bottom:10%;
+font-size:150%;}
+#backgroundd{background-image:url("background.png");
+
+min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*Media Querries */
+@media only screen and (min-width: 600px) {
+    li{
+       display:block;
+    }
+}
+
+#checkout{border:5px solid #B90000;
+padding-bottom:7%;
+    background-color:white;
+    border-radius: 10px;
+    margin:5%;
+margin-left: 30%;
+color:black;
+}
+
+/*Media Querries */
+
+@media only screen and (max-width: 900px) {
+
+    .navtext:hover{
+	
+	background-color:#d64646;
+	padding-top:0;
+	padding-bottom:0;
+}	
+		
+    
+    ul,li{
+    transition:none;
+     position:relative;
+       display:block;
+     text-align:center;
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    } 
+    .ciao{visibility: hidden;}
+    .reduce{width:30%;margin-left:30%;}
+    #map{margin-bottom:0%;width:100%;
+    padding-bottom:0%;height:70%;}
+ .nop{width:100%;}
+    .horia{margin-top:3%;}
+    .oaoa{visibility:hidden;}
+    .images{margin-left:25%;}
+ 
+}
+@media only screen and (max-width: 500px) {
+    
+    .ciao{visibility: hidden;}
+    .reduce{width:100%;margin-left:0%;}
+   
+}
+
